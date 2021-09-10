@@ -5,29 +5,50 @@
   box-sizing: border-box;
  
 }
-ul{
+/* ul{
     
     display: flex;
     align-items: center;
     padding-top: 0.5rem;
-}
+} */
 
 .title{
     font-size: 2rem;
     flex: 1;
 }
 
-.links{
+/* .links{
     font-size: 1.25rem;
     padding-left: 2rem;
     padding-right: 2rem;
-}
+} */
 
 nav{
     border-bottom: 1px solid white;
     background: rgba(45, 8, 179, 0.3);
-    z-index: 2;
-    position:fixed;
-    width: 100%;
+    width: 100vw;
+    display: flex;
+    /* flex-direction: space-evenly; */
+    align-items: center;
+    text-align: center;
+    min-height: 2rem;
+}
+
+.button{
+    /* padding-left:; */
+    /* margin-left: 10rem; */
+    width: 7rem;
+    height: 2rem;
+    color: white;
+}
+
+#btn-1{
+    border-radius: 3px;
+    
+    
+}
+
+.home{
+    display: flex;
 }
 
