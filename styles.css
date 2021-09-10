@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+ 
+}
+ul{
+    
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+.title{
+    font-size: 2rem;
+    flex: 1;
+}
+
+.links{
+    font-size: 1.25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+nav{
+    border-bottom: 1px solid white;
+    background: rgba(45, 8, 179, 0.3);
+    z-index: 2;
+    position:fixed;
+    width: 100%;
+}
+
